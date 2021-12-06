@@ -1,0 +1,39 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "What is up", "Hello"],
+     "responses": ["Hello", "Hi", "Hey"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "bye bye", "adios"],
+     "responses": ["See you later", "Have a nice day", "Bye! Come back again", "Bye", "adios"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "Thank you very much", "Thanks for the help"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "name",
+    "patterns": ["who are you?", "what should I call you?", "what is your name?", "How can I address you?", "Can you tell me your name?"],
+    "responses": ["I am Chadbot.", "My name is Chadbot", "Chadbot", "You can call me Chadbot"]
+    },
+    {"tag": "gaming",
+    "patterns": ["I want to buy some gaming products", "Can you show me some gaming products?", "I want to buy gaming accessories", "What do you have for gaming?", "My hobby is gaming", "I like gaming", "I am a gamer", "any recommendation for gamers?", "Which gaming console should I get?"],
+    "responses": ["https://www.newegg.com/p/pl?d=gaming+laptops", "https://gear-up.me/computers/gaming.html", "https://www.amazon.ae/s?k=gaming&ref=nb_sb_noss", "https://www.virginmegastore.ae/en/Gaming/Gaming-Accessories/c/n051000", "You can visit Jumbo, SharafDG, Virgin Megastore or Geekay Games to buy gaming equipment", "Playstation is good for exclusive games", "XBOX has more powerful hardware than playstation"]
+    },
+    {"tag": "audio",
+    "patterns": ["I need to buy a headset", "Do you have headsets?", "Where can I get headphones?", "I am looking for earphones", "Where can I buy earphones?", "Can you show me some speakers?", "I want to buy speakers", "I want to purchase headphones", "I need speakers for a party"],
+    "responses": ["https://www.amazon.ae/s?k=earhpones+and+headphones&ref=nb_sb_noss", "https://eu.jbl.com/search?q=speakers", "https://www.audeze.com/products/lcd-gx", "https://www.sony.com/en-ae/electronics/headphones/t/headband-headphones", "https://en-ae.sennheiser.com", "JBL has the best speakers", "Bose and Sennheiser have the best headphones", "Skull candy has the best budget earphones", "Sony has good headphones for low budget"]
+    },
+    {"tag": "display",
+    "patterns": ["ultra hd television", "I want to buy a television", "I want to buy a tv", "where can I buy a tv?", "I need a monitor", "best place to buy a monitor"],
+    "responses": ["Sony, Samsung, TCL and LG have the best quality products", "https://uae.sharafdg.com/4k-uhd-tvs/", "https://uae.sharafdg.com/?q=monitors&post_type=product", "https://uae.sharafdg.com/?q=8k%20tv&post_type=product", "4K television is good for a family setting", "8k television is expensive but very good if you use OTT platforms and consoles"]
+    },
+    {"tag": "computer",
+    "patterns": ["how to select a good computer", "how to select a good laptop", "computer", "personal computer", "laptop", "business laptop"],
+    "responses": ["https://www.amazon.ae/s?k=work+laptops&ref=nb_sb_noss_1", "Don't buy laptops that go below 8th gen CPUs", "HP, Dell, MSI, ASUS and Lenovo are the best options", "https://www.jumbo.ae/computers/laptops", "laptops with a dedicated graphics card are good for editing and design", ""]
+    },
+    {"tag": "phone",
+    "patterns": ["Which phone is good for me?", "Can you show me some mobile phones?", "I want to buy a mobile", "I am looking for a smartphone"],
+    "responses": ["Android phones have good user interface", "Apple phones have strong security", "Google, Samsung and OnePlus are flagship brands", "Huawei, Xiaomi, Oppo and Vivo have good products for lower budgets", "https://uae.sharafdg.com/huawei-smartphones/"]
+    }
+]
+}
