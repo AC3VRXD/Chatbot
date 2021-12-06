@@ -13,11 +13,11 @@
     },
     {"tag": "name",
     "patterns": ["who are you?", "what should I call you?", "what is your name?", "How can I address you?", "Can you tell me your name?"],
-    "responses": ["I am Chadbot.", "My name is Chadbot", "Chadbot"]
+    "responses": ["I am Chadbot.", "My name is Chadbot", "Chadbot", "You can call me Chadbot"]
     },
     {"tag": "gaming",
-    "patterns": ["I want to buy some gaming products", "Can you show me some gaming products?", "I want to buy gaming accessories", "What do you have for gaming?", "My hobby is gaming", "I like gaming", "I am a gamer", "any recommendation for gamers?"],
-    "responses": ["https://www.newegg.com/p/pl?d=gaming+laptops", "https://gear-up.me/computers/gaming.html", "https://www.amazon.ae/s?k=gaming&ref=nb_sb_noss", "https://www.virginmegastore.ae/en/Gaming/Gaming-Accessories/c/n051000", "You can visit Jumbo, SharafDG, Virgin Megastore or Geekay Games to buy gaming equipment", "Playstation is better for exclusive games", "XBOX has more powerful hardware than playstation"]
+    "patterns": ["I want to buy some gaming products", "Can you show me some gaming products?", "I want to buy gaming accessories", "What do you have for gaming?", "My hobby is gaming", "I like gaming", "I am a gamer", "any recommendation for gamers?", "Which gaming console should I get?"],
+    "responses": ["https://www.newegg.com/p/pl?d=gaming+laptops", "https://gear-up.me/computers/gaming.html", "https://www.amazon.ae/s?k=gaming&ref=nb_sb_noss", "https://www.virginmegastore.ae/en/Gaming/Gaming-Accessories/c/n051000", "You can visit Jumbo, SharafDG, Virgin Megastore or Geekay Games to buy gaming equipment", "Playstation is good for exclusive games", "XBOX has more powerful hardware than playstation"]
     },
     {"tag": "audio",
     "patterns": ["I need to buy a headset", "Do you have headsets?", "Where can I get headphones?", "I am looking for earphones", "Where can I buy earphones?", "Can you show me some speakers?", "I want to buy speakers", "I want to purchase headphones", "I need speakers for a party"],
@@ -32,8 +32,8 @@
     "responses": ["https://www.amazon.ae/s?k=work+laptops&ref=nb_sb_noss_1", "Don't buy laptops that go below 8th gen CPUs", "HP, Dell, MSI, ASUS and Lenovo are the best options", "https://www.jumbo.ae/computers/laptops", "laptops with a dedicated graphics card are good for editing and design", ""]
     },
     {"tag": "phone",
-    "patterns": ["phone", "mobilephone", "mobile", "smartphone"],
-    "responses": ["Android phones have better user interface", "Apple phones have better security", "Google, Samsung and OnePlus are flagship brands", "Huawei, Xiaomi, Oppo and Vivo have good products for lower budgets", "https://uae.sharafdg.com/huawei-smartphones/"]
+    "patterns": ["Which phone is good for me?", "Can you show me some mobile phones?", "I want to buy a mobile", "I am looking for a smartphone"],
+    "responses": ["Android phones have good user interface", "Apple phones have strong security", "Google, Samsung and OnePlus are flagship brands", "Huawei, Xiaomi, Oppo and Vivo have good products for lower budgets", "https://uae.sharafdg.com/huawei-smartphones/"]
     }
 ]
 }
