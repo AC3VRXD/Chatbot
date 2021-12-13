@@ -13,27 +13,47 @@
     },
     {"tag": "name",
     "patterns": ["who are you?", "what should I call you?", "what is your name?", "How can I address you?", "Can you tell me your name?"],
-    "responses": ["I am Chadbot.", "My name is Chadbot", "Chadbot", "You can call me Chadbot"]
+    "responses": ["I am Chadbot.", "My name is Chadbot", "Chadbot"]
     },
     {"tag": "gaming",
-    "patterns": ["I want to buy some gaming products", "Can you show me some gaming products?", "I want to buy gaming accessories", "What do you have for gaming?", "My hobby is gaming", "I like gaming", "I am a gamer", "any recommendation for gamers?", "Which gaming console should I get?"],
-    "responses": ["https://www.newegg.com/p/pl?d=gaming+laptops", "https://gear-up.me/computers/gaming.html", "https://www.amazon.ae/s?k=gaming&ref=nb_sb_noss", "https://www.virginmegastore.ae/en/Gaming/Gaming-Accessories/c/n051000", "You can visit Jumbo, SharafDG, Virgin Megastore or Geekay Games to buy gaming equipment", "Playstation is good for exclusive games", "XBOX has more powerful hardware than playstation"]
+    "patterns": ["I want to buy some gaming products", "Can you show me some gaming products?", "I want to buy gaming accessories", "What do you have for gaming?", "My hobby is gaming", "I like gaming", "I am a gamer", "any recommendation for gamers?"],
+    "responses": ["https://www.newegg.com/p/pl?d=gaming+laptops", "https://gear-up.me/computers/gaming.html", "https://www.amazon.ae/s?k=gaming&ref=nb_sb_noss", "https://www.virginmegastore.ae/en/Gaming/Gaming-Accessories/c/n051000", "You can visit Jumbo, SharafDG, Virgin Megastore or Geekay Games to buy gaming equipment", "Playstation is better for exclusive games", "XBOX has more powerful hardware than playstation"]
     },
-    {"tag": "audio",
-    "patterns": ["I need to buy a headset", "Do you have headsets?", "Where can I get headphones?", "I am looking for earphones", "Where can I buy earphones?", "Can you show me some speakers?", "I want to buy speakers", "I want to purchase headphones", "I need speakers for a party"],
-    "responses": ["https://www.amazon.ae/s?k=earhpones+and+headphones&ref=nb_sb_noss", "https://eu.jbl.com/search?q=speakers", "https://www.audeze.com/products/lcd-gx", "https://www.sony.com/en-ae/electronics/headphones/t/headband-headphones", "https://en-ae.sennheiser.com", "JBL has the best speakers", "Bose and Sennheiser have the best headphones", "Skull candy has the best budget earphones", "Sony has good headphones for low budget"]
+    {"tag": "Bose",
+    "patterns": ["I need to buy a bose headset", "Do you have bose headsets?", "Where can I get bose headphones?", "I am looking for bose products", "Where can I buy bose earphones?", "Can you show me some bose speakers?", "I want to buy bose speakers", "I want to purchase bose headphones"],
+    "responses": ["https://www.bose.com/en_us/products/headphones.html", "https://www.bose.com/en_us/products/headphones/noise_cancelling_headphones.html", "https://www.bose.com/en_us/products/headphones/wireless_headphones.html", "https://www.bose.com/en_us/products/speakers/portable_speakers.html", "https://www.bose.com/en_us/products/headphones/earbuds.html", "https://www.bose.com/en_us/products/speakers/smart_home.html", "https://www.bose.com/en_us/products/headphones/sports_headphones.html", "https://www.amazon.ae/s?k=bose+audio&ref=nb_sb_noss_1"]
     },
+    {"tag": "Skull Candy",
+        "patterns": ["I need to buy a skull candy headset", "Do you have skull candy headsets?", "Where can I get skull candy headphones?", "I am looking for skull candy earphones", "Where can I buy skull candy earphones?", "Can you show me skull candy some speakers?", "I want to buy skull candy speakers", "I want to purchase skull candy headphones"],
+        "responses": ["https://www.skullcandy.eu/shop/earbuds/bluetooth-earbuds/", "https://www.skullcandy.eu/shop/headphones/bluetooth-headphones/", "https://www.skullcandy.eu/shop/headphones/wired-headphones/", "https://www.skullcandy.eu/shop/earbuds/wireless-earbuds/true-wireless/", "Skull candy has the best budget earphones", "Skull candy does not have speakers", "https://www.amazon.ae/s?k=skullcandy&crid=32TCNIWEQFC38&sprefix=sku%2Caps%2C281&ref=nb_sb_ss_ts-doa-p_2_3"]
+    },
+    {"tag": "JBL",
+        "patterns": ["I need to buy a JBL headset", "Do you have JBL headsets?", "Where can I get JBL headphones?", "I am looking for JBL earphones", "Where can I buy JBL earphones?", "Can you show me JBL some speakers?", "I want to buy JBL speakers", "I want to purchase JBL headphones", "I need speakers for a party"],
+        "responses": ["https://eu.jbl.com", "https://eu.jbl.com/search?q=speakers", "https://eu.jbl.com/headphones", "https://eu.jbl.com/home-audio", "https://eu.jbl.com/wireless-headphones", "JBL has good quality speakers", "https://eu.jbl.com/in-ear-headphones", "https://eu.jbl.com/bluetooth-speakers", "https://eu.jbl.com/speaker-docks", "https://eu.jbl.com/yurbuds-sport-headphones", "https://www.amazon.ae/s?k=jbl&ref=nb_sb_noss_2"]
+    },
+    {"tag": "Sony",
+        "patterns": ["I need to buy a sony headset", "Do you have sony headsets?", "Where can I get sony headphones?", "I am looking for sony earphones", "Where can I buy sony earphones?", "Can you show me some sony speakers?", "I want to buy sony speakers", "I want to purchase sony headphones"],
+        "responses": ["https://www.sony.com/en-ae/electronics/headphones/t/truly-wireless-earbuds", "https://www.sony.com/en-ae/electronics/audio", "https://www.sony-mea.com/en/electronics/360-reality-audio", "https://www.sony.com/en-ae/electronics/headphones/t/headband-headphones", "https://www.sony-mea.com/en/electronics/headphones/t/in-ear-headphones", "https://www.sony-mea.com/en/electronics/headphones/t/headphone-amplifiers", "Sony has good audio products for low budget", "https://www.amazon.ae/s?k=sony+audio&ref=nb_sb_noss_2"]
+    },    
     {"tag": "display",
     "patterns": ["ultra hd television", "I want to buy a television", "I want to buy a tv", "where can I buy a tv?", "I need a monitor", "best place to buy a monitor"],
-    "responses": ["Sony, Samsung, TCL and LG have the best quality products", "https://uae.sharafdg.com/4k-uhd-tvs/", "https://uae.sharafdg.com/?q=monitors&post_type=product", "https://uae.sharafdg.com/?q=8k%20tv&post_type=product", "4K television is good for a family setting", "8k television is expensive but very good if you use OTT platforms and consoles"]
+    "responses": ["Sony, Samsung, TCL and LG have the best quality products", "https://uae.sharafdg.com/4k-uhd-tvs/", "https://uae.sharafdg.com/?q=monitors&post_type=product", "https://uae.sharafdg.com/?q=8k%20tv&post_type=product", "4K television is good for a family setting", "8k television is expensive but very good for OTT platforms and gaming consoles"]
     },
     {"tag": "computer",
     "patterns": ["how to select a good computer", "how to select a good laptop", "computer", "personal computer", "laptop", "business laptop"],
     "responses": ["https://www.amazon.ae/s?k=work+laptops&ref=nb_sb_noss_1", "Don't buy laptops that go below 8th gen CPUs", "HP, Dell, MSI, ASUS and Lenovo are the best options", "https://www.jumbo.ae/computers/laptops", "laptops with a dedicated graphics card are good for editing and design", ""]
     },
-    {"tag": "phone",
-    "patterns": ["Which phone is good for me?", "Can you show me some mobile phones?", "I want to buy a mobile", "I am looking for a smartphone"],
-    "responses": ["Android phones have good user interface", "Apple phones have strong security", "Google, Samsung and OnePlus are flagship brands", "Huawei, Xiaomi, Oppo and Vivo have good products for lower budgets", "https://uae.sharafdg.com/huawei-smartphones/"]
+    {"tag": "Samsung",
+    "patterns": ["I am looking a samsung phone", "samsung mobilephone", "samsung mobile", "samsung smartphone", "samsung products"],
+    "responses": ["https://www.samsung.com/ae/mobile/", "https://www.samsung.com/ae/smartphones/galaxy-s/", "Galaxy-S series has some of the best smarthpones", "https://www.samsung.com/ae/smartphones/galaxy-note/", "https://www.samsung.com/ae/smartphones/galaxy-z/", "Galaxy-z series has foldable phones", "https://www.samsung.com/ae/smartphones/galaxy-a/", "Galaxy-a series has budget mobile phones", "https://www.amazon.ae/s?k=samsung+mobile&crid=R5E6V0LVP3I6&sprefix=samsung+mo%2Caps%2C284&ref=nb_sb_ss_ts-doa-p_1_10"]
+    },
+    {"tag": "Apple",
+        "patterns": ["I want to buy an iphone", "I am looking for iphones", "apple phones", "apple smartphone", "IOS mobile", "apple mobile"],
+        "responses": ["https://www.amazon.ae/s?k=Iphone&ref=nb_sb_noss_2", "Iphones have very strong security", "https://www.apple.com/ae/iphone/", "Iphones have very powerful camera", "https://www.apple.com/ae/iphone-13-pro/", "https://www.apple.com/ae/iphone-13/", "https://www.apple.com/ae/shop/buy-iphone"]
+    },
+    {"tag": "Android",
+        "patterns": ["android phone", "android mobilephone", "android mobile", "android smartphone", "huawei", "google pixel", "android"],
+        "responses": ["Android phones have very good user interface", "Google, Huawei and OnePlus are flagship brands", "Huawei, Xiaomi, Oppo and Vivo have good products for lower budgets", "https://uae.sharafdg.com/huawei-smartphones/", "https://store.google.com/us/?hl=en-US&regionRedirect=true", "https://store.google.com/us/product/pixel_6_pro?hl=en-US", "Pixel 6 pro is one of the best smarthpones", "https://store.google.com/us/category/phones?hl=en-US", "https://www.mi.com/global/", "https://www.mi.com/global/list/", "https://consumer.huawei.com/ae-en/phones/", "https://www.amazon.ae/s?k=andriod+phone&crid=23IRIQN1MQFM8&sprefix=androd+ph%2Caps%2C266&ref=nb_sb_ss_sc_1_9"]
     }
 ]
 }
