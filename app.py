@@ -1,5 +1,5 @@
 from flask import Flask, render_template, jsonify, request
-import chatbot
+import response
 
 
 app = Flask(__name__)
@@ -19,6 +19,9 @@ def chatbotResponse():
     if request.method == 'POST':
         the_question = request.form['question']
 
-        response = chatbot.chatbot_response(the_question)
+        chatbot_response = response.chatbot_response(the_question)
 
-    return jsonify({"response": response })
+    return jsonify({"response": chatbot_response})
+
+if __name__ == '__main__':
+    app.run(debug=True)
